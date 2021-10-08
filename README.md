@@ -5,7 +5,7 @@ Foi com esse projeto que aprendi GO, eu segui o curso desse site:
 
 Cada lição está em uma branch separada para o melhor entendimento de quem quiser da uma olhada:
 
-- ####Olá Mundo
+- Olá Mundo
   - [Primeira alteração](https://github.com/josuealessandro/go-com-test/commit/b017c4aa81f568e9a91a341d9209f5a4f31b6464) 
   - [Primeiro exemplo com teste](https://github.com/josuealessandro/go-com-test/commit/8f1a70425f750bf2383d2751a58dc50c61b92492)
   - [Primeiro exemplo com TDD](https://github.com/josuealessandro/go-com-test/commit/7908c45583453779103f9c83d534798a04f634f8)
