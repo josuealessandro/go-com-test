@@ -11,18 +11,32 @@ func TestOla(t *testing.T) {
 	}
 
 	t.Run("Quando o nome é informado", func(t *testing.T) {
-		resultado := Ola("Josué")
+		resultado := Ola("Josué", "")
 		esperado := "Olá, Josué"
 
 		verificaMensagemCorreta(t, resultado, esperado)
 	})
 
 	t.Run("Quando o nome não é informado", func(t *testing.T) {
-		resultado := Ola("")
+		resultado := Ola("", "")
 		esperado := "Olá, Mundo"
 
 		verificaMensagemCorreta(t, resultado, esperado)
 
+	})
+
+	t.Run("em espanhol", func(t *testing.T) {
+		resultado := Ola("Josué", "espanhol")
+		esperado := "Hola, Josué"
+
+		verificaMensagemCorreta(t, resultado, esperado)
+	})
+
+	t.Run("em francês", func(t *testing.T) {
+		resultado := Ola("Josué", "frances")
+		esperado := "Bonjour, Josué"
+
+		verificaMensagemCorreta(t, resultado, esperado)
 	})
 
 }
