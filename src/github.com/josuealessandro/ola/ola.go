@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-const prefixoOlaPortugues = "Ola, "
+const prefixoOlaPortugues = "Olá, "
 
 func Ola(nome string) string {
 	return prefixoOlaPortugues + nome
